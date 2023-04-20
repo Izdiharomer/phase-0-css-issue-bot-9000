@@ -1,23 +1,58 @@
 body {
-  background pink;
+  background: pink;
+  max-width: 900px;
+  margin: 10%;
+  margin-top: 3%;
+  padding: 5%;
+}
+.container {
+background-color: #ccc;
+border: 2px solid rgb(20, 17, 17);
+padding: 20px;
+margin: 10px;
+
+}
+img {
+width: 800px;
+height: auto;
+display: flex;
+padding-left: 22%;
+padding-right: 5%;
+margin: 10px;
+border-radius: 20px;
 }
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: bold;
   font-style: italic;
+  text-align: center;
+  margin-bottom: 5%;
 }
 
-.completed {
-  font-family: 12px;
+.completed, p {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
-#tasks .completed {
-  backgound: #ccc;
+ .completed {
   text-decoration: underline;
+}
+li {
+  padding: 2px;
+}
+
+@media screen and (min-width: 600px) {
+  img {
+    width: 400px;
+   
+  }
+ 
 }
